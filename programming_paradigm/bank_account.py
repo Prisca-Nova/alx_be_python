@@ -13,4 +13,5 @@ class BankAccount:
         return False
 
     def display_balance(self):
-        print(f"Current Balance: ${self.__account_balance}")
+        # show two decimal places to match the expected output
+        print(f"Current Balance: ${self.__account_balance:.2f}")
